@@ -1,0 +1,122 @@
+html {
+	font-family: Montserrat;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+html, body, main {
+    height: 100%;
+}
+
+body {
+	background-size: 5em 5em;
+  	width: 100%;
+	padding: 0; 
+    margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.div-container-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	padding: 10px;
+	margin-right: 10%;
+}
+
+.span-char {
+	color: #52ffd7
+}
+
+.a-portifolio, .a-about, .a-contact {
+	font-family: JetBrains Mono;
+	font-variant-ligatures: none;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.a-portifolio {
+	margin-right: 60px;
+}
+
+.a-contact {
+	margin-left: 60px;
+}
+
+section {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.div-titles {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+h1 {
+	font-family: JetBrains Mono;
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0px;
+	margin-left: 8px;
+	color: #52ffd7
+}
+
+h2, h3 {
+	font-size: 80px;
+	margin: 0px;
+}
+
+h3 {
+	color: #b8b8b8;
+}
+
+h4 {
+	font-size: 40px;
+	margin: 0;
+}
+
+.foo {
+	font-family: JetBrains Mono;
+	color: #292929;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.div-about {
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.div-p-about {
+	width: 600px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #919191; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #363636; 
+}
+
